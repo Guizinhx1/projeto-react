@@ -1,0 +1,23 @@
+.inputs {
+    margin: 10px 0;
+  }
+  
+  .inputs label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .inputs input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  .inputs input:focus {
+    border-color: #007bff; /* Azul ao focar */
+    outline: none; /* Remove o contorno padrão */
+  }

@@ -1,0 +1,31 @@
+.taskItem {
+    margin-bottom: 10px;
+  }
+  
+  .taskItem p {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  .taskList {
+    margin: 20px 0;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Cor de fundo das tarefas */
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .task:hover {
+    background-color: #e9ecef; /* Cor ao passar o mouse */
+  }
+  
+  .task span {
+    margin-left: 10px;
+  }

@@ -1,0 +1,33 @@
+.button-card {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: aqua; /* Cor de fundo */
+  color: black; /* Cor do texto */
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.button-card:hover {
+  background-color: #00bfff; /* Cor ao passar o mouse */
+  transform: scale(1.05);
+}
+
+.button-card:active {
+  transform: scale(0.95);
+}
+.delete-button {
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #dc3545; /* Vermelho */
+  color: white; /* Cor do texto */
+  transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+  background-color: #c82333; /* Vermelho escuro ao passar o mouse */
+}
